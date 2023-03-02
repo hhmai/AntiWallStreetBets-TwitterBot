@@ -23,7 +23,7 @@ hot_posts = reddit.subreddit('WallStreetBets').top(time_filter="day", limit=50)
 
 ticketers_dict = {}
 
-# parse
+# parse the post and check for any ticketers
 for post in hot_posts:
     # scrape post titles for ticketers
     if '$' in post.title:

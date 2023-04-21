@@ -15,7 +15,7 @@ def has_symbols(inputString):
 
 
 # authenticate
-reddit = praw.Reddit(client_id='D2eF3b3l9xL5g6P61ziPrw', client_secret='smvmphUJ1a2-Pce-0dlloZ7Bk0PDNQ',
+reddit = praw.Reddit(client_id='REDACTED', client_secret='REDACTED',
                      user_agent='WSB Webscraper')
 
 # set up vars
